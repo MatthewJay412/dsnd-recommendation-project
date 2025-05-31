@@ -34,21 +34,29 @@ pip install pandas numpy scikit-learn matplotlib jupyter
 
 Clone the repo
 
-```git clone https://github.com/MatthewJay412/dsnd-recommendation-project.git
-cd dsnd-recommendation-project/starter```
+```
+git clone https://github.com/MatthewJay412/dsnd-recommendation-project.git
+cd dsnd-recommendation-project/starter
+```
 
 Create a virtual environment (optional but recommended)
 
-```python3 -m venv venv
-source venv/bin/activate      # On Windows, use: venv\Scripts\activate```
+```
+python3 -m venv venv
+source venv/bin/activate      # On Windows, use: venv\Scripts\activate
+```
 
 Install required packages
 
-```pip install pandas numpy scikit-learn matplotlib jupyter```
+```
+pip install pandas numpy scikit-learn matplotlib jupyter
+```
 
 Launch the notebook
 
-    ```jupyter notebook Recommendations_with_IBM.ipynb```
+```
+jupyter notebook Recommendations_with_IBM.ipynb
+```
 
 That’s it. You should see the notebook open in your browser, ready for exploration.
 
