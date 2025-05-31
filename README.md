@@ -117,14 +117,14 @@ Use that previously calculated vt (200 latent features) to find the top 10 “ne
 
 ## Built With
 
-Python 3 
-Jupyter Notebook 
-pandas 
-NumPy 
-scikit‑learn 
-    TfidfVectorizer, TruncatedSVD, Normalizer, KMeans (content‑based pipeline).
-    cosine_similarity (both user‑user and article‑article).
-matplotlib – Plotting distribution charts and elbow curves.
+- Python 3  
+- Jupyter Notebook  
+- pandas  
+- NumPy  
+- scikit‑learn  
+  - `TfidfVectorizer`, `TruncatedSVD`, `Normalizer`, `KMeans` (content‑based pipeline)  
+  - `cosine_similarity` (both user‑user and article‑article)  
+- matplotlib – Plotting distribution charts and elbow curves  
 
 ## License
 
