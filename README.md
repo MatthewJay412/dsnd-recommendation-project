@@ -1,30 +1,56 @@
-# README Template
+# README 
 
-Below is a template provided for use when building your README file for students.
+# DSND Recommendation Project
 
-# Project Title
-
-Project description goes here.
+This notebook walks through building a full recommendation engine using IBM Watson Studio data. You’ll see three flavors of recommendations—popularity (rank‑based), collaborative filtering (user–user and SVD), and content‑based (TF‑IDF + K‑Means clustering). By the end, you’ll have functions that recommend articles for brand‑new users, users with sparse history, and users with rich interaction logs.
 
 ## Getting Started
 
-Instructions for how to get a copy of the project running on your local machine.
+To grab a copy of the project and run it locally, just clone this repository and open the Jupyter notebook in your preferred environment:
+
+```bash
+git clone https://github.com/MatthewJay412/dsnd-recommendation-project.git
+cd dsnd-recommendation-project/starter
+jupyter notebook Recommendations_with_IBM.ipynb
+```
 
 ### Dependencies
 
+This project uses common Python data‑science libraries. You’ll need:
+
+Python 3 (tested on 3.7+)
+pandas
+numpy
+scikit‑learn
+matplotlib
+Jupyter Notebook
+
+If you’re missing anything, install via pip:
 ```
-Examples here
+pip install pandas numpy scikit-learn matplotlib jupyter
 ```
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+Clone the repo
 
-List out the steps
+```git clone https://github.com/MatthewJay412/dsnd-recommendation-project.git
+cd dsnd-recommendation-project/starter```
 
-```
-Give an example here
-```
+Create a virtual environment (optional but recommended)
+
+```python3 -m venv venv
+source venv/bin/activate      # On Windows, use: venv\Scripts\activate```
+
+Install required packages
+
+```pip install pandas numpy scikit-learn matplotlib jupyter```
+
+Launch the notebook
+
+    ```jupyter notebook Recommendations_with_IBM.ipynb```
+
+That’s it. You should see the notebook open in your browser, ready for exploration.
 
 ## Testing
 
